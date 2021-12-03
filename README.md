@@ -1,6 +1,6 @@
 _SQL_Solutions_
 
-## 1. Features
+## Features
 
 - Solutions of 30 sql problems for practice
 
@@ -12,4 +12,3 @@ _SQL_Solutions_
   - Alter table
 
 - Stored procedures
-
