@@ -13,9 +13,9 @@ WHERE durataminute > 3;
 
 /*4*/
 SELECT RECLAMA.textreclama AS "nume reclama",
-COUNT(DIFUZARE.codReclama) AS "numar difuzari"
-FROM RECLAMA LEFT JOIN DIFUZARE
-ON RECLAMA.codReclama = DIFUZARE.codReclama
-GROUP BY(RECLAMA.codReclama);
+COUNT(DIFUZARE.oradifuzare) AS "numar de difuzari"
+FROM DIFUZARE LEFT JOIN RECLAMA
+ON DIFUZARE.codReclama = RECLAMA.codReclama
+GROUP BY (RECLAMA.codReclama);
 
 END
